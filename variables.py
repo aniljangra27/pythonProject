@@ -13,3 +13,9 @@ x = y = z = "Ram"
 print(x)
 print(y)
 print(z)
+
+# Variables are case-sensitive in python
+a = 1
+A = 2
+print(a)
+print(A)
