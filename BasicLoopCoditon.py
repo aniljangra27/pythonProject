@@ -17,3 +17,17 @@ print(list(range(10)))
 print(list(range(1,12)))
 
 print(list(range(5,20,5)))
+print("..............................")
+rollNumber = [1,2,3,45,23,112]
+for i in rollNumber:
+    print(i)
+    if i == 23:
+        break
+
+print("..............................")
+p = 1
+while p < 10:
+    print(p)
+    p+=1
+    if p == 5:
+        break

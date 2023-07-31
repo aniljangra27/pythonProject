@@ -47,3 +47,9 @@ print(x.split(','))
 c = "Shri"
 d = "Ram"
 print(c + d)
+
+# length of string
+print(len(x))
+
+# Escape char
+print("We are \"VIKINGS\" of the north.")
