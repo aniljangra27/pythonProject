@@ -1,0 +1,8 @@
+The key difference between tuples and lists is that while the tuples are immutable objects, lists are mutable.
+This means that tuples cannot be changed while lists can be modified.
+
+List data are written in array brackets. ex []
+a_list = [1,2,3,4,5]
+
+Tuple data are in round brackets. ex ()
+a_tuple = (1,2,3,4,5)
