@@ -2,9 +2,10 @@
 
 a, b, c = "Apple", "Banana", "Cat"
 
-print(a)
+print(type(a))
 print(b)
 print(c)
+
 
 # Multiple variable with same values
 
