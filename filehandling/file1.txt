@@ -1,0 +1,3 @@
+Hi, there...
+0 in german ->null 
+1 -> eins

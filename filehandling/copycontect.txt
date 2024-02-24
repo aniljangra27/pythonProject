@@ -1,0 +1,10 @@
+Note: For most file reading and writing operations in Python, the 'with' statement is recommended.
+
+Automatic resource management: The file is guaranteed to be closed when you exit the with block, even if an exception occurs during processing.
+Cleaner and more concise code: You don't need to explicitly call close(), making your code more readable and less error-prone.
+======
+
+file = open('file.txt', 'r')
+=====
+
+with open('file.txt', 'r') as file:
