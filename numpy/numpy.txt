@@ -1,0 +1,24 @@
+NumPy (Numerical Python) is an open source Python library that’s used in almost every field of science and engineering.
+It’s the universal standard for working with numerical data in Python, and it’s at the core of the scientific Python and PyData ecosystems.
+NumPy's users include everyone from beginning coders to experienced researchers doing state-of-the-art scientific and industrial research and development.
+The NumPy API is used extensively in Pandas, SciPy, Matplotlib, scikit-learn, scikit-image and most other data science and scientific Python packages.
+
+What’s the difference between a Python list and a NumPy array?
+NumPy gives you an enormous range of fast and efficient ways of creating arrays and manipulating numerical data inside them. While a Python list can contain different data types within a single list, all of the elements in a NumPy array should be homogeneous. The mathematical operations that are meant to be performed on arrays would be extremely inefficient if the arrays weren’t homogeneous.
+
+Why use NumPy?
+NumPy's arrays are faster and more compact than Python lists. An array consumes less memory and is convenient to use.
+NumPy uses much less memory to store data, and it provides a mechanism of specifying the data types.
+This allows the code to be optimized even further.
+
+
+Numpy Array
+numpy.array() – Creates array from given values.
+numpy.zeros() – Creates array of zeros.
+numpy.ones() – Creates array of ones.
+numpy.empty() – Creates an empty array.
+
+
+
+
+source: https://numpy.org/doc/stable/user/absolute_beginners.html
