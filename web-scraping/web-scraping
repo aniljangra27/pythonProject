@@ -1,0 +1,20 @@
+Objectives
+After completing this lab you will be:
+
+Familiar with the basics of the BeautifulSoup Python library
+Be able to scrape webpages for data and filter the data
+
+Beautiful Soup Object
+Beautiful Soup is a Python library for pulling data out of HTML and XML files, we will focus on HTML files. This is accomplished by representing the HTML as a set of objects with methods used to parse the HTML. We can navigate the HTML as a tree, and/or filter out what we are looking for.
+
+
+For this, we are going to be using Python and several other libraries.
+!pip install html5lib
+Note:- After running the above code cell, restart the kernel and don't run the above code cell after restarting the kernel.
+
+# !pip install requests
+!pip install bs4
+Import the required modules and functions
+
+from bs4 import BeautifulSoup # this module helps in web scrapping.
+import requests  # this module helps us to download a web page
